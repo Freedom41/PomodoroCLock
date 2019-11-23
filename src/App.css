@@ -1,0 +1,48 @@
+body {
+   background: url('https://res.cloudinary.com/freedom41/image/upload/v1574491037/pocket-watch-2036309_1280_ahi5ja.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.Btn {
+  margin: 1rem;
+  background: #282c34;
+  color: white;
+  font-size: calc(10px + 2vmin);
+  border: 1px solid whitesmoke;
+  border-radius: 15px;
+  padding: 0.35rem;
+}
+
+.App-header {
+  min-height: 15vh;
+  margin: auto;
+  max-width: 35vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 2rem;
+  color: black;
+}
+
+#time-left {
+  font-size: 7rem;
+  font-family: 'Caveat Brush', cursive;
+  font-style: bold;
+  color: white;
+}
+
+#timer-label {
+  opacity: 0;
+}
+
+#break-label {
+  opacity: 0;
+}
+
+span {
+  font-family: 'Caveat Brush', cursive;
+}
